@@ -1,6 +1,11 @@
 import streamlit as st
-from main import ResearchAssistant
+import sys
 import os
+
+# Add the root directory to sys.path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from main import ResearchAssistant
 
 st.set_page_config(page_title="Multi-Agent Research Assistant", layout="wide")
 
