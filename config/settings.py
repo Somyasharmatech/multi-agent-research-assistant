@@ -8,7 +8,7 @@ class Settings:
     # Add other keys as needed, e.g., SERPER_API_KEY if using Serper
     
     # Model Configuration
-    MODEL_NAME = "llama3-70b-8192" # Or other Groq supported models
+    MODEL_NAME = "llama-3.3-70b-versatile" # Updated to supported model
     
     # Paths
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
