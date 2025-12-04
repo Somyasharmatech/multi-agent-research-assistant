@@ -2,6 +2,9 @@
 
 A powerful research assistant powered by LangChain, Groq, and Streamlit.
 
+## 🚀 Live Demo
+[**Try the App Here**](https://multi-agent-research-assistant-kb6eu2xhmx5bhizdrbrvwd.streamlit.app/)
+
 ## Features
 - **Planner Agent**: Breaks down queries into sub-tasks.
 - **Search Agent**: Scrapes the web for information.
